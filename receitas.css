@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(242, 112, 65);
+}
+
+.container {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+  gap: 15px;
+}
+
+.receita {
+  background-color: rgb(227, 240, 137);
+  width: 32%;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.receita img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.receita h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.receita p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
